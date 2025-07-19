@@ -12,23 +12,23 @@
    limitations under the License.
  -->
 <resources>
-	<string name="app_name">UnicodePad</string>
- 	<string name="delete">Del</string>
+	<string name="app_name">ユニコードパッド</string>
+ 	<string name="delete">削除</string>
 	<string name="desc">詳細</string>
 	<string name="find">検索</string>
-	<string name="fhint">文字名称を入力</string>
-	<string name="inlist">リスト内表示</string>
+	<string name="fhint">文字名を入力してください</string>
+	<string name="inlist">リスト内検索</string>
 	<string name="copied">クリップボードにコピーしました</string>
-	<string name="finish">確定</string>
+	<string name="finish">完了</string>
 	<string name="share">共有</string>
 	<string name="undo">元に戻す</string>
-	<string name="redo">やり直す</string>
+	<string name="redo">やり直し</string>
 	<string name="convert">変換</string>
 	<string name="convert_">変換…</string>
 	<string name="font">フォント</string>
 	<string name="favorite">お気に入り</string>
-	<string name="recent">履歴</string>
-	<string name="list">一覧</string>
+	<string name="recent">最近使用したもの</string>
+	<string name="list">リスト</string>
 	<string name="edit">入力</string>
 	<string name="emoji">絵文字</string>
 	<string name="normal">デフォルト</string>
@@ -38,10 +38,10 @@
 	<string name="mark">マーク</string>
 	<string name="rem">削除…</string>
 	<string name="code">コードポイント</string>
-	<string name="nocode">無効なコードポイントです</string>
-	<string name="cantopen">フォントを開けませんでした</string>
-	<string name="cantread">アクセスできませんでした　アプリに読み取り権限が与えられていないかもしれません</string>
-	<string name="denied">アクセスが拒否されています. SDカードにアクセスするにはアプリ設定からストレージ権限を付与してください</string>
+	<string name="nocode">無効なコードポイント</string>
+	<string name="cantopen">フォントを開けません</string>
+	<string name="cantread">アクセスできません。アプリケーションが読み取り権限を持っていない可能性があります。</string>
+	<string name="denied">アクセスを拒否しました。SDカードを閲覧するには、アプリ設定からストレージ権限を付与してください。</string>
 
 	<string name="script_0">0 基本ラテン文字</string>
 	<string name="script_80">80 ラテン1補助</string>

@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 36
 
     defaultConfig {
         applicationId "jp.ddo.hotmist.unicodepad"
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 35
         versionCode 69
         versionName "2.16.0"
     }
@@ -37,11 +37,6 @@ android {
         }
     }
 
-    lintOptions {
-        disable "ResourceType"
-        disable 'GoogleAppIndexingWarning'
-        disable 'NullSafeMutableLiveData'
-    }
 
     flavorDimensions "distribution"
 
@@ -56,6 +51,9 @@ android {
         }
     }
     namespace 'jp.ddo.hotmist.unicodepad'
+    lint {
+        disable 'ResourceType', 'GoogleAppIndexingWarning', 'NullSafeMutableLiveData'
+    }
 }
 
 dependencies {

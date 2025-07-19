@@ -14,13 +14,14 @@
    See the License for the specific language governing permissions and
    limitations under the License.
  -->
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
 	<style name="Theme" parent="Theme.AppCompat">
 		<item name="backspace">@drawable/ic_action_backspace</item>
 		<item name="cancel">@drawable/ic_action_cancel</item>
 		<item name="search">@drawable/ic_action_search</item>
 		<item name="drag_handle">@drawable/ic_drag_handle</item>
+		<item name="android:windowOptOutEdgeToEdgeEnforcement" tools:targetApi="35">true</item>
 	</style>
 
 	<style name="Theme.Light" parent="Theme.AppCompat.Light">
@@ -28,6 +29,7 @@
 		<item name="cancel">@drawable/ic_action_cancel_light</item>
 		<item name="search">@drawable/ic_action_search_light</item>
 		<item name="drag_handle">@drawable/ic_drag_handle_light</item>
+		<item name="android:windowOptOutEdgeToEdgeEnforcement" tools:targetApi="35">true</item>
 	</style>
 
 	<style name="Theme.Light.DarkActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -35,6 +37,7 @@
 		<item name="cancel">@drawable/ic_action_cancel_light</item>
 		<item name="search">@drawable/ic_action_search_light</item>
 		<item name="drag_handle">@drawable/ic_drag_handle_light</item>
+		<item name="android:windowOptOutEdgeToEdgeEnforcement" tools:targetApi="35">true</item>
 	</style>
 
     <style name="Theme.DayNight" parent="Theme.Light" />

@@ -222,10 +222,10 @@ class UnicodeActivity : BaseActivity() {
                                                 return
                                             }
                                             while (history.size > historyCursor + 1) {
-                                                history.removeLast()
+                                                history.removeAt(history.lastIndex)
                                             }
                                             while (history.size >= MAX_HISTORY) {
-                                                history.removeFirst()
+                                                history.removeAt(0)
                                             }
                                             history.add(
                                                 Triple(

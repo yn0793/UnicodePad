@@ -156,7 +156,7 @@ internal class CharacterAdapter(private val activity: UnicodeActivity, private v
                         Scanner(s.substring(2)).use { sc ->
                             while (sc.hasNext()) {
                                 val ss = sc.next()
-                                if (Regex("[0-9A-Fa-f]{4,6}").matches(ss)) {
+                                if (Regex("[0-9A-Fa-f]{4,6}").matches(ss) && !Regex("[a-f]{4,6}").matches(ss)) {
                                     val tgt = Integer.parseInt(ss, 16)
                                     cs += String(Character.toChars(tgt))
                                     ps += String.format("U+%04X ", tgt)

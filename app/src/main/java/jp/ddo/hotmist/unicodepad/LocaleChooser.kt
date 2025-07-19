@@ -41,7 +41,7 @@ class LocaleChooser internal constructor(private val context: Context, val spinn
                     }
                 }
                 while (locales.last() !is String)
-                    locales.removeLast()
+                    locales.removeAt(locales.lastIndex)
                 locales.add(Locale.forLanguageTag(locale))
                 adapter.notifyDataSetChanged()
                 spinner.setSelection(locales.lastIndex)

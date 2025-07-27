@@ -15,6 +15,7 @@
 */
 package jp.ddo.hotmist.unicodepad
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.*
 import android.graphics.Paint.FontMetricsInt
@@ -241,6 +242,7 @@ class CharacterView @JvmOverloads constructor(context: Context, attrs: Attribute
     }
 
     private val cache: Unit
+        @SuppressLint("WrongThread")
         get() {
             emojicache = null
             if (span != null || (Build.VERSION.SDK_INT < 23 || paint.hasGlyph(str)) && validChar && paint.measureText(str) > 0f) {

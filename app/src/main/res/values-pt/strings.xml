@@ -368,9 +368,9 @@
 	<string name="script_30000">30000 Expansão G da União de Ideógrafos do CJK</string>
 	<string name="script_31350">31350 Expansão H da União de Ideógrafos do CJK</string>
 	<string name="script_E0000">E0000 Marcações</string>
-	<string name="script_E0100">E0100 Seletores de Variação Suplementares</string>
-	<string name="script_F0000">F0000 Área A de Uso Privado Suplementar</string>
-	<string name="script_100000">100000 Área B de Uso Privado Suplementar</string>
+	<string name="script_E0100">E0100 Suplemento de Seletores de Variação</string>
+	<string name="script_F0000">F0000 Área de Uso Privado Suplementar A</string>
+	<string name="script_100000">100000 Área de Uso Privado Suplementar B</string>
 
 	<string name="general">Geral</string>
 	<string name="appearance">Aparência</string>
@@ -388,7 +388,7 @@
 	<string name="emojicompat_false">Apenas para glifos em falta</string>
 	<string name="emojicompat_true">Para todos os glifos de emoji</string>
 
-	<string name="download_desc">Baixar fontes de Noto…</string>
+	<string name="download_desc">Baixar fontes Noto…</string>
 	<string name="download_uri">https://fonts.google.com/noto</string>
 	<string name="export_data">Exportar dados e configurações…</string>
 	<string name="import_data">Importar dados e configurações…</string>
@@ -401,13 +401,15 @@
 	<string name="export_fail_io">Falha ao exportar: %1$s</string>
 	<string name="import_fail_json">O arquivo a ser importado não é um JSON válido: %1$s</string>
 	<string name="import_fail_io">Falha ao importar: %1$s</string>
-	<string name="data_setting">Configuração</string>
+	<string name="data_setting">Configurações</string>
 	<string name="data_history">Histórico (%1$d)</string>
 	<string name="data_favorite">Favorito (%1$d)</string>
 	<string name="data_scroll">Posições de rolagem</string>
 	<string name="data_merge">Mesclar com o atual</string>
 	<string name="no_ad_desc">Remover anúncios</string>
+	<string name="skip_guide_desc">Pular tutoriais</string>
 	<string name="tabs_desc">Configurações de abas…</string>
+	<string name="tabs_hint">Dica: Você pode alternar rapidamente entre única/várias colunas pinçando para dentro e para fora nas listas</string>
 	<string name="shown_desc">Abas em exibição</string>
 	<string name="hidden_desc">Abas ocultas</string>
 
@@ -427,6 +429,7 @@
 	<string name="theme_dark">Escuro</string>
 	<string name="theme_light">Claro</string>
 	<string name="theme_darktitle">Claro + Escuro divididos</string>
+        <string name="theme_system">Padrão do sistema</string>
 
 	<string name="theme_title">Aplicado após reiniciar</string>
 	<string name="list_title">A aba de lista não pode ser ocultada</string>

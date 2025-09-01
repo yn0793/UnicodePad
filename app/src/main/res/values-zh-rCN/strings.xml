@@ -442,7 +442,7 @@
 	<string name="no_ad_desc">不显示广告</string>
 	<string name="skip_guide_desc">跳过向导</string>
 	<string name="tabs_desc">标签设置…</string>
-	<string name="tabs_hint">提示：可以通过双指捏合、张开来切换单栏、多栏视图。</string>
+	<string name="tabs_hint">提示：可以在列表上通过双指捏合及张开来快速切换单栏、多栏视图。</string>
 	<string name="shown_desc">已显示标签</string>
 	<string name="hidden_desc">已隐藏标签</string>
 
